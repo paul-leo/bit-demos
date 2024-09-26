@@ -11,6 +11,7 @@ export function FlightSearch({ children }: FlightSearchProps) {
   return (
     <div>
       {children}
+      <h1>Flight Search</h1>
     </div>
   );
 }

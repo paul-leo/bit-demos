@@ -39,10 +39,7 @@
   **/
   "teambit.generator/generator": {
     "envs": [
-      //  "bitdev.node/node-env",
-      //  "bitdev.react/react-env",
-      //  "bitdev.vue/vue-env",
-      //  "bitdev.angular/angular-env"
+      "nore-work.shop/envs/my-react-env"
     ]
   },
   /**
@@ -62,8 +59,10 @@
         "@bitdev/platforms.platform": "^2.1.1",
         "@bitdev/react.app-types.vite-react": "^2.1.2",
         "@bitdev/symphony.backends.gateway-server": "^0.0.17",
+        "@frontend/shadcn-ui.ui.tabs": "^0.0.1",
         "@learnbit/single-spa.react.webpack-transformer": "^0.0.1",
         "@teambit/cloud-providers.deployers.netlify": "^0.1.26",
+        "@teambit/react.mounter": "^1.0.24",
         "@vitejs/plugin-react": "^4.3.1",
         "classnames": "^2.5.1"
       },

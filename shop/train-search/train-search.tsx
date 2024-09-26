@@ -10,6 +10,7 @@ export type TrainSearchProps = {
 export function TrainSearch({ children }: TrainSearchProps) {
   return (
     <div>
+      <h1>Train Search</h1>
       {children}
     </div>
   );

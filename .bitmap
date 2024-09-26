@@ -23,6 +23,20 @@
             }
         }
     },
+    "envs/my-react-env": {
+        "name": "envs/my-react-env",
+        "scope": "",
+        "version": "",
+        "defaultScope": "nore-work.shop",
+        "mainFile": "index.ts",
+        "rootDir": "shop/envs/my-react-env",
+        "config": {
+            "bitdev.general/envs/bit-env@1.0.15": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.general/envs/bit-env"
+            }
+        }
+    },
     "flight-search": {
         "name": "flight-search",
         "scope": "",
