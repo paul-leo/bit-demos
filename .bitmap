@@ -9,26 +9,12 @@
  */
 
 {
-    "mf-shell": {
-        "name": "mf-shell",
-        "scope": "nore-work.shop",
-        "version": "2a68f6087c32d983afbb4083ccf62852ab14345b",
-        "mainFile": "index.ts",
-        "rootDir": "shop/mf-shell"
-    },
     "product-info": {
         "name": "product-info",
         "scope": "nore-work.shop",
         "version": "b6c9172f739b1c91e395140d3b2bfdceda7a2aad",
         "mainFile": "index.ts",
         "rootDir": "shop/product-info"
-    },
-    "react/example": {
-        "name": "react/example",
-        "scope": "learnbit.single-spa",
-        "version": "0.0.1",
-        "mainFile": "index.ts",
-        "rootDir": "single-spa/react/example"
     },
     "trade": {
         "name": "trade",

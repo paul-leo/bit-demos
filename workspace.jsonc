@@ -79,6 +79,5 @@
   "teambit.workspace/workspace-config-files": {
     "enableWorkspaceConfigWrite": true
   },
-  "learnbit.single-spa/react/example@0.0.1": {},
   "bit-foundations.apps/single-spa/single-spa-react-env@0.0.3": {}
 }
