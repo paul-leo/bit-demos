@@ -23,6 +23,20 @@
             }
         }
     },
+    "home-page": {
+        "name": "home-page",
+        "scope": "",
+        "version": "",
+        "defaultScope": "nore-work.shop",
+        "mainFile": "index.ts",
+        "rootDir": "shop/home-page",
+        "config": {
+            "bitdev.react/react-env@2.1.6": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.react/react-env"
+            }
+        }
+    },
     "product-info": {
         "name": "product-info",
         "scope": "nore-work.shop",
