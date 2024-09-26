@@ -7,7 +7,7 @@ import {
 } from '@frontend/shadcn-ui.ui.tabs';
 import { FlightSearch } from '@nore-work/shop.flight-search';
 import { TrainSearch } from '@nore-work/shop.train-search';
-import './home-page.scss';
+import './index.scss';
 
 export type HomePageProps = {
   /**
@@ -24,19 +24,25 @@ export type HomePageProps = {
 
 export function HomePage({}: HomePageProps) {
   return (
-    <div>
-      <Tabs defaultValue="flight">
-        <TabsList className='search-bus-tab'>
-          <TabsTrigger value={'flight'}>机票</TabsTrigger>
-          <TabsTrigger value={'train'}>火车票</TabsTrigger>
-        </TabsList>
-        <TabsContent value={'train'}>
-          <TrainSearch />
-        </TabsContent>
-        <TabsContent value={'flight'}>
-          <FlightSearch />
-        </TabsContent>
-      </Tabs>
+    <div className='home-page'>
+      <div className='banner'>
+      <img className='' alt='xx' src='https://dimg04.c-ctrip.com/images/0zg7212000fdfginlC93D.webp'/> 
+      </div>
+     
+      <div className="flight-tran-card">
+        <Tabs defaultValue="flight">
+          <TabsList className="search-bus-tab">
+            <TabsTrigger value={'flight'}>机票<span className='zhongjian'></span></TabsTrigger>
+            <TabsTrigger value={'train'}>火车票<span className='zhongjian'></span></TabsTrigger>
+          </TabsList>
+          <TabsContent value={'train'}>
+            <TrainSearch />
+          </TabsContent>
+          <TabsContent value={'flight'}>
+            <FlightSearch />
+          </TabsContent>
+        </Tabs>
+      </div>
     </div>
   );
 }
