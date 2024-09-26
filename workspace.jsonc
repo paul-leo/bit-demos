@@ -63,13 +63,9 @@
         "@bitdev/react.app-types.vite-react": "^2.1.2",
         "@bitdev/symphony.backends.gateway-server": "^0.0.17",
         "@learnbit/single-spa.react.webpack-transformer": "^0.0.1",
-        "@teambit/blog.community.blog": "^0.0.93",
         "@teambit/cloud-providers.deployers.netlify": "^0.1.26",
-        "@teambit/community.ui.pages.homepage": "^1.97.15",
         "@vitejs/plugin-react": "^4.3.1",
-        "classnames": "^2.5.1",
-        "single-spa-css": "^2.0.0",
-        "single-spa-react": "^6.0.2"
+        "classnames": "^2.5.1"
       },
       "peerDependencies": {}
     },

@@ -1,12 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
 import { ProductInfo } from '@nore-work/shop.product-info';
-import { Homepage } from '@teambit/community.ui.pages.homepage';
-import { CommunityBlog } from '@teambit/blog.community.blog';
+
 export function Trade() {
   return (
     <Routes>
       <Route
-        path="/product/:id"
+        path="/"
         element={
           <ProductInfo
             image="https://jkcdn.pajk.com.cn/image/T1.bWy3XEv1RCvBVdK?img=/tf,q_70,d_webp"
