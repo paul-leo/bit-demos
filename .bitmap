@@ -23,6 +23,20 @@
             }
         }
     },
+    "flight-search": {
+        "name": "flight-search",
+        "scope": "",
+        "version": "",
+        "defaultScope": "nore-work.shop",
+        "mainFile": "index.ts",
+        "rootDir": "shop/flight-search",
+        "config": {
+            "bitdev.react/react-env@2.1.6": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.react/react-env"
+            }
+        }
+    },
     "home-page": {
         "name": "home-page",
         "scope": "",
@@ -50,6 +64,20 @@
         "version": "c17e7a1d3a107455399f1b28166af54e2d88723d",
         "mainFile": "index.ts",
         "rootDir": "shop/trade"
+    },
+    "train-search": {
+        "name": "train-search",
+        "scope": "",
+        "version": "",
+        "defaultScope": "nore-work.shop",
+        "mainFile": "index.ts",
+        "rootDir": "shop/train-search",
+        "config": {
+            "bitdev.react/react-env@2.1.6": {},
+            "teambit.envs/envs": {
+                "env": "bitdev.react/react-env"
+            }
+        }
     },
     "$schema-version": "17.0.0"
 }
